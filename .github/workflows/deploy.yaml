@@ -39,7 +39,7 @@ jobs:
         run: |
           rm -rf quartz/content
           cp -r notes/vault quartz/content
-          cp notes/quartz.config.yaml quartz/quartz.config.yaml
+          cp notes/quartz.config.ts quartz/quartz.config.ts
 
       - name: Install dependencies
         working-directory: quartz
