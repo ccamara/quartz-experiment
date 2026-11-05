@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Welcome.md",
+                "file": "vault/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "index"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "media/.gitkeep",
-                "bFile": "media/.gitkeep",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: .gitkeep  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ],
@@ -213,7 +213,7 @@
   },
   "active": "0c6c9c91646f6782",
   "lastOpenFiles": [
-    "vault/Welcome.md",
+    "vault/index.md",
     "vault/Contributing Guide.md",
     "media",
     "vault/concerns",
