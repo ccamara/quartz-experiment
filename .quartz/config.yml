@@ -1,0 +1,8 @@
+quartz:
+  site:
+    name: my-obsidian-vault
+    description: My Obsidian vault on GitHub Pages
+    url: https://my-obsidian-vault.github.io/
+  build:
+    source: content/
+    dest: .
