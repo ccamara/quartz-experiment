@@ -38,7 +38,7 @@ jobs:
       - name: Add your vault and config to Quartz
         run: |
           rm -rf quartz/content
-          cp -r notes/vault quartz/content
+          cp -r content quartz/content
           cp notes/quartz.config.yaml quartz/quartz.config.yaml
 
       - name: Install dependencies
