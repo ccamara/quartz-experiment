@@ -27,12 +27,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": ".obsidian/app.json",
+                "bFile": ".obsidian/app.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Diff: app.json  (Working Tree)"
             }
           }
         ],
@@ -214,6 +214,7 @@
   "active": "0c6c9c91646f6782",
   "lastOpenFiles": [
     "vault/index.md",
+    "vault/media",
     "vault/Contributing Guide.md",
     "media",
     "vault/concerns",
