@@ -19,35 +19,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your notes repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           path: notes
 
       - name: Checkout Quartz
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           repository: jackyzha0/quartz
-          ref: v5
+          ref: v4
           path: quartz
 
       - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
 
       - name: Add your vault and config to Quartz
         run: |
           rm -rf quartz/content
-          cp -r content quartz/content
-          cp notes/quartz.config.yaml quartz/quartz.config.yaml
+          cp -r notes/vault quartz/content
+          cp notes/quartz.config.ts quartz/quartz.config.ts
+          cp notes/quartz.layout.ts quartz/quartz.layout.ts
 
       - name: Install dependencies
         working-directory: quartz
         run: npm ci
-
-      - name: Install Quartz plugins
-        working-directory: quartz
-        run: npx quartz plugin install --from-config
 
       - name: Build site
         working-directory: quartz
