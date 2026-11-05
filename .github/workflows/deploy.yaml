@@ -19,15 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your notes repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: notes
 
       - name: Checkout Quartz
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: jackyzha0/quartz
-          ref: v4
+          ref: v5
           path: quartz
 
       - name: Setup Node
