@@ -1,0 +1,1 @@
+This is empty for now. Should contain an explanation on how to edit this, either from the git repo or obsidian.
