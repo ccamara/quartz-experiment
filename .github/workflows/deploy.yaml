@@ -1,24 +1,70 @@
-name: Deploy to GitHub Pages
+name: Deploy site
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:   # lets you run it manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Run build command
-        run: |
-          npm install
-          npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: ad-m/github-pages-deploy@v2
+      - name: Checkout your notes repository
+        uses: actions/checkout@v6
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          path: notes
+
+      - name: Checkout Quartz
+        uses: actions/checkout@v6
+        with:
+          repository: jackyzha0/quartz
+          ref: v5
+          path: quartz
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Add your vault and config to Quartz
+        run: |
+          rm -rf quartz/content
+          cp -r notes/vault quartz/content
+          cp notes/quartz.config.yaml quartz/quartz.config.yaml
+
+      - name: Install dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Install Quartz plugins
+        working-directory: quartz
+        run: npx quartz plugin install --from-config
+
+      - name: Build site
+        working-directory: quartz
+        run: npx quartz build
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
