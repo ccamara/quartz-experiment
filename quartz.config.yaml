@@ -228,12 +228,15 @@ plugins:
     options:
       includeAll: false
       includedProperties:
+        - aliases
         - author
         - date
-        - url
         - description
+        - doi
+        - job title
+        - organisation
         - tags
-        - aliases
+        - url
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
