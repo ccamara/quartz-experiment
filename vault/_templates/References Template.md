@@ -2,6 +2,7 @@
 author:
 date:
 url:
+type:
 tags:
 ---
 

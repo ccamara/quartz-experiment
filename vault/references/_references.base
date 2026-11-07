@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Vista
+    filters:
+      and:
+        - file.inFolder("vault/references")
+        - file.ext != "base"
+    order:
+      - file.name
+      - date
+      - author
+      - contributors
+      - url
+      - tags
+      - doi

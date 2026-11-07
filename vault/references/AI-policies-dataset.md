@@ -8,8 +8,10 @@ title: UK Universities’ AI Policy Documents Dataset
 doi: https://doi.org/10.5281/zenodo.22898314
 tags:
   - policies
+  - dataset
+contributors: "[[Carlos Cámara-Menoyo]]"
+type: dataset
 ---
-
 ## Summary
 
 A dataset compiling academic governance documents detailing artificial intelligence policies and usage guidelines issued by universities across the United Kingdom. Compiled from public institutional sources (see datasources below), the collection includes formal policy and guidance statements addressing the use of AI tools in teaching, learning, assessment, and/or scholarly activities. 

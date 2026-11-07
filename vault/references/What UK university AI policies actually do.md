@@ -4,6 +4,9 @@ date: 2026-05-21
 url: https://www.hepi.ac.uk/reports/what-uk-university-ai-policies-actually-do-a-study-of-96-institutions/
 tags:
   - policies
+  - report
+contributors: "[[Carlos Cámara-Menoyo]]"
+type: Report
 ---
 
 ## Summary
