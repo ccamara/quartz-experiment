@@ -1,0 +1,10 @@
+{
+  "folderSpecificTemplates": [
+    {
+      "folderPath": "vault/references",
+      "templateName": "References Template"
+    }
+  ],
+  "disablePrompt": false,
+  "debug": false
+}

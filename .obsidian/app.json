@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./vault/media",
+  "attachmentFolderPath": "./vault/_media",
   "newFileLocation": "folder",
   "newFileFolderPath": "vault",
   "alwaysUpdateLinks": false
