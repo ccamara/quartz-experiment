@@ -7,11 +7,12 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: ccamara.github.io/quartz-experiment/
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - content/_templates
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
