@@ -3,6 +3,10 @@
     {
       "folderPath": "vault/references",
       "templateName": "References Template"
+    },
+    {
+      "folderPath": "vault/people",
+      "templateName": "People Template"
     }
   ],
   "disablePrompt": false,
