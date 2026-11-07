@@ -228,6 +228,9 @@ plugins:
     options:
       includeAll: false
       includedProperties:
+        - author
+        - date
+        - url
         - description
         - tags
         - aliases
