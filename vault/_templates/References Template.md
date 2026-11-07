@@ -1,7 +1,8 @@
 ---
 author:
-date: 
+date:
 url:
+tags:
 ---
 
 ## Summary

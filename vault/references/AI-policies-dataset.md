@@ -2,15 +2,19 @@
 author:
   - "[[Carlos Cámara-Menoyo]]"
   - "[[Chenlu Wang]]"
-date:
+date: 2026-09-30
 url: https://github.com/CriticAI-HE/AI-policies-dataset
 title: UK Universities’ AI Policy Documents Dataset
 doi: https://doi.org/10.5281/zenodo.22898314
+tags:
+  - policies
 ---
 
 ## Summary
 
-A dataset compiling academic governance documents detailing artificial intelligence policies and usage guidelines issued by universities across the United Kingdom. Compiled from public institutional sources (see datasources below), the collection includes formal policy and guidance statements addressing the use of AI tools in teaching, learning, assessment, and/or scholarly activities. Each document has been manually reviewed and annotated with metadata describing aspects of its contents, aims, audience and position on AI usage to allow for comparisons, systematic analysis and to inform decisions. Researchers and policymakers are the primary audience.
+A dataset compiling academic governance documents detailing artificial intelligence policies and usage guidelines issued by universities across the United Kingdom. Compiled from public institutional sources (see datasources below), the collection includes formal policy and guidance statements addressing the use of AI tools in teaching, learning, assessment, and/or scholarly activities. 
+
+Each document has been manually reviewed and annotated with metadata describing aspects of its contents, aims, audience and position on AI usage to allow for comparisons, systematic analysis and to inform decisions. Researchers and policymakers are the primary audience.
 ## Contents
 
 - A dataset is a `csv` file containing 121 documents authored by 33 different universities, and 30 metadata variables.
