@@ -15,10 +15,10 @@ url: https://www.hepi.ac.uk/reports/what-uk-university-ai-policies-actually-do-a
 - **A policy’s location predicts its function more accurately than the language used.** Policies hosted within academic misconduct frameworks enforce. Policies hosted within learning and teaching frameworks educate. Vocabulary alone does not move the needle.
 
 - **No policy in the sample states ‘we trust students’.** The dominant model is conditional trust: students are trusted only if they declare their use, retain evidence and submit to verification.
-- 
+
 ## Questions
 - 
 
 ## Related References
 
-- [[]]
+- [[AI-policies-dataset]]
