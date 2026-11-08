@@ -4,6 +4,9 @@ filters:
 views:
   - type: cards
     name: Actions
+    filters:
+      and:
+        - file.path.startsWith("vault/actions")
     order:
       - file.name
       - url
@@ -12,4 +15,4 @@ views:
     name: Organisations
     filters:
       and:
-        - file.path.startsWith("references")
+        - file.path.startsWith("vault/organisations")

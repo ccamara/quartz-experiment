@@ -10,6 +10,11 @@ tags:
   - data-centers
   - climate-justice
   - labour
+causes:
+  - "[[Labour]]"
+  - "[[Environmental]]"
+  - "[[Social]]"
+  - "[[Housing]]"
 ---
 ## Concerns
 Extracted from their website:
