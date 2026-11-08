@@ -5,6 +5,10 @@
     "tags": "tags",
     "year": "date",
     "date": "date",
-    "author": "multitext"
+    "author": "multitext",
+    "country": "multitext",
+    "type": "multitext",
+    "organiser": "multitext",
+    "causes": "multitext"
   }
 }
