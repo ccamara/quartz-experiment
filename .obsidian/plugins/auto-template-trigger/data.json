@@ -7,6 +7,10 @@
     {
       "folderPath": "vault/people",
       "templateName": "People Template"
+    },
+    {
+      "folderPath": "vault/organisations",
+      "templateName": "Organisations Template"
     }
   ],
   "disablePrompt": false,
