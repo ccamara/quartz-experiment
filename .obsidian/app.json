@@ -2,5 +2,5 @@
   "attachmentFolderPath": "./vault/_media",
   "newFileLocation": "folder",
   "newFileFolderPath": "vault",
-  "alwaysUpdateLinks": false
+  "alwaysUpdateLinks": true
 }
