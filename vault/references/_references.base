@@ -3,8 +3,9 @@ views:
     name: Vista
     filters:
       and:
-        - file.inFolder("vault/references")
         - file.ext != "base"
+        - file.path.contains("references")
+        - file.name != "index"
     order:
       - file.name
       - date
