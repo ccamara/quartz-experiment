@@ -230,6 +230,8 @@ plugins:
       includedProperties:
         - aliases
         - author
+        - causes
+        - country
         - date
         - description
         - doi
