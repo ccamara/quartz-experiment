@@ -1,8 +1,7 @@
 
-## Actions
-![[Concerns base template.base#Actions]]
+## What's being linked
 
-## Organisations
-![[Concerns base template.base#Organisations]]
+Explore what's being done in relation to labour:
 
-## References
+![[Concerns base template.base]]
+

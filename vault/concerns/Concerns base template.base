@@ -6,7 +6,7 @@ views:
     name: Actions
     filters:
       and:
-        - file.path.startsWith("vault/actions")
+        - file.path.contains("actions/")
     order:
       - file.name
       - url
@@ -15,4 +15,4 @@ views:
     name: Organisations
     filters:
       and:
-        - file.path.startsWith("vault/organisations")
+        - file.path.contains("organisations/")
