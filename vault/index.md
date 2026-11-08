@@ -5,7 +5,6 @@ title: Welcome to CriticAI 👋
 
 **CriticAI is a community of practice to critically enquiry about AI’s adoption in Higher Education**
 
-![[base test.base]]
 ## Motivation:
 
 ![[Motivation]]

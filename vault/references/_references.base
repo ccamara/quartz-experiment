@@ -10,7 +10,9 @@ views:
       - file.name
       - date
       - author
-      - contributors
       - url
       - tags
       - doi
+    sort:
+      - property: contributors
+        direction: ASC
