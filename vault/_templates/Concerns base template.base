@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.hasLink(this)
+views:
+  - type: cards
+    name: Actions
+    order:
+      - file.name
+      - url
+      - country
+  - type: cards
+    name: Organisations
+    filters:
+      and:
+        - file.path.startsWith("references")
