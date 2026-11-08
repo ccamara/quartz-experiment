@@ -17,4 +17,5 @@ quartz/cli/tui/dist/
 
 # Obsidian
 .obsidian/workspace.json
+.obsidian/graph.json
 
