@@ -6,7 +6,8 @@ views:
     name: Actions
     filters:
       and:
-        - file.path.contains("actions")
+        - file.folder.contains("actions")
+        - file.name != "index"
     order:
       - file.name
       - url
@@ -16,5 +17,6 @@ views:
     filters:
       and:
         - file.folder.contains("organisations")
+        - file.name != "index"
     order:
       - file.name
