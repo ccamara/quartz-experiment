@@ -9,7 +9,7 @@ doi: https://doi.org/10.5281/zenodo.22898314
 tags:
   - policies
   - dataset
-contributors: "[[Carlos Cámara-Menoyo]]"
+contributed_by: "[[Carlos Cámara-Menoyo]]"
 type: dataset
 ---
 ## Summary

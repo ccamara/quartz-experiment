@@ -5,8 +5,9 @@ url: https://docs.google.com/document/d/1TAXqYGid8sQz8v1ngTLD1qZBx2rNKHeKn9mcfWb
 tags:
   - teaching
   - training-material
+  - ai-literacy
 title: "Teaching Critical AI Literacies: “Explainer” and Resources for the New Semester"
-contributors: "[[Sophie Whittle]]"
+contributed_by: "[[Sophie Whittle]]"
 type: training material
 ---
 
@@ -18,4 +19,4 @@ type: training material
 - 
 
 ## Related References
-- [[]]
+- [[Our Collective AI]]

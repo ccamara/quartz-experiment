@@ -1,5 +1,5 @@
 ---
-alias: Intellectual Property
+aliases: Intellectual Property
 title: Intellectual Property
 ---
 

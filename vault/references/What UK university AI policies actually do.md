@@ -5,7 +5,7 @@ url: https://www.hepi.ac.uk/reports/what-uk-university-ai-policies-actually-do-a
 tags:
   - policies
   - report
-contributors: "[[Carlos Cámara-Menoyo]]"
+contributed_by: "[[Carlos Cámara-Menoyo]]"
 type: Report
 ---
 
