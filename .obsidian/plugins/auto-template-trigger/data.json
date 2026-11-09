@@ -11,6 +11,10 @@
     {
       "folderPath": "vault/organisations",
       "templateName": "Organisations Template"
+    },
+    {
+      "folderPath": "vault/actions",
+      "templateName": "Actions Template"
     }
   ],
   "disablePrompt": false,
